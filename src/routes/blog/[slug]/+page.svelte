@@ -9,5 +9,3 @@
 <h1>{title}</h1>
 
 {@html content}
-
-<a href="/">Home</a>
