@@ -3,7 +3,8 @@
 	import Header from '../components/header.svelte';
 </script>
 
-<Header />
+<Header title="Test project" />
+
 <main>
 	<div class="container">
 		<slot />

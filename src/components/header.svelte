@@ -1,6 +1,10 @@
+<script lang="ts">
+	export let title: string = 'Header title';
+</script>
+
 <header>
 	<div class="container">
-		<h2>Header</h2>
+		<h2>{title}</h2>
 		<nav>
 			<a href="/">Home</a>
 			<a href="/about">About</a>
