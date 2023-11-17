@@ -1,9 +1,13 @@
 <script lang="ts">
-	import type { PageData } from './$types';
+	import type { PageServerData } from './$types';
 
-	export let data: PageData;
+	export let data: PageServerData;
+
+	const { title, content } = data;
 </script>
 
-<h1>{data.title}</h1>
-<div>{@html data.content}</div>
+<h1>{title}</h1>
+
+{@html content}
+
 <a href="/">Home</a>
